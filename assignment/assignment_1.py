@@ -1,7 +1,7 @@
 
-test1 = 96 
-test2 = 99 
-test3 = 96 
+test1 = float(input('enter test grade:  ')) 
+test2 = float(input('enter test grade:  '))
+test3 = float(input('enter test grade:  '))
 avg = (test1 + test2 + test3) /3
 highscore = 95 
 if avg > highscore :
