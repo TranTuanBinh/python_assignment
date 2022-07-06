@@ -13,8 +13,8 @@ else :
 
 b_h = 40 
 ot_m =1.5
-h = 50
-p_r = 20 
+h = int(input('enter your working hours:    '))
+p_r = int(input('enter the rate:    ')) 
 if h > b_h :
     ot_t = h - b_h
     ot_p = ot_t * p_r * ot_m
